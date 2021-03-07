@@ -9,14 +9,11 @@ export default function Home() {
     <Layout page="about">
       <Head title="About"/>
       <h3>Hey</h3>
-      <p>I am just someone who is interested in understanding how stuff around us works, especially the software side of things.</p>
-      <p>This blog is a way for me to keep track of my learnings and maybe make some like minded friends along the way</p>
-      <p>I would be happy to help you with any problems you are facing with learning to code</p>
-      <i> I certainly don't know everything about everything but <b>idk</b>; maybe I might be able to help.</i>
-      <p></p>
-      <hr></hr>
-      <p>Connect with me on twitter at <Link to="https://twitter.com/NRathore404" target="_blank" className={aboutStyles.link}>@NRathore404</Link></p>
-      <p>If you want to get notified about new posts; <Link to="https://tinyletter.com/nsr-py" target="_blank" className={aboutStyles.link}>Subscribe</Link> to be a part of my email list</p>
+      <p>I am Navdeep Singh Rathore, currently a web developer at <Link to="https://requestly.io" target="_blank" className={aboutStyles.link}>Requestly</Link></p>
+      <p>I am always interested in understanding how stuff around us works, especially the software side of things. The internet is my temple of solitude and this blog is an attempt to build my own space away from the chaotic mess of ads and popups. This is where I share what I learn. Hopefully, you find some of it useful.</p>
+      
+      <p>I would be happy to have a geeky conversation. Ping me on twitter at <Link to="https://twitter.com/NRathore404" target="_blank" className={aboutStyles.link}>@NRathore404.</Link> You can also find some fun and stupid projects that I made on github at <Link to="https://github.com/nsrCodes" target="_blank" className={aboutStyles.link}>@nsrCodes.</Link></p>
+      <p>If you like what you found here, you can signup to my newsletter where I send emails about new posts as well as interesting things that I find on the internet. If you are a geek like me, you will definitely find these emails a delight. <Link to="https://tinyletter.com/nsrCodes" target="_blank" className={aboutStyles.link}>Subscribe</Link> to be a part of my email list</p>
     </Layout>
   )
 }

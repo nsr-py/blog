@@ -11,10 +11,10 @@ export default function Footer({page, author}) {
     <footer className={footerStyles.footer}>
       <div className={displaySubscriptionForm?footerStyles.newsletter:footerStyles.hide}>
         <form
-          action="https://tinyletter.com/nsr-py"
+          action="https://tinyletter.com/nsrCodes"
           method="post" 
           target="popupwindow"
-          onSubmit="window.open('https://tinyletter.com/nsr-py', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+          onSubmit="window.open('https://tinyletter.com/nsrCodes', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
           <input 
             type="email" 
             name="email" 
@@ -31,7 +31,7 @@ export default function Footer({page, author}) {
 }
 
 
-// <form style="border:1px solid #ccc;padding:3px;text-align:center;" action="https://tinyletter.com/nsr-py" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/nsr-py', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+// <form style="border:1px solid #ccc;padding:3px;text-align:center;" action="https://tinyletter.com/nsrCodes" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/nsrCodes', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
 //   <p>
 //     <label for="tlemail">
 //       Enter your email address
