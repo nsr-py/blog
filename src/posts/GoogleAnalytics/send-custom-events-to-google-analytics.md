@@ -1,6 +1,6 @@
 ---
 title: "Send custom events to Google Analytics using AJAX"
-date: 11/09/2020
+date: "2020-09-11"
 tags: [Google Analytics, AJAX]
 category: [web-dev]
 published: true

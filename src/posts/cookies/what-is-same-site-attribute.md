@@ -1,6 +1,6 @@
 ---
 title: "Cookies: Same Site attribute"
-date: "15/9/2020"
+date: "2020-09-15"
 tags: [cookies, chrome, firefox]
 category: [web-dev]
 published: true

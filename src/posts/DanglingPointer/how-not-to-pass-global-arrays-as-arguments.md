@@ -1,6 +1,6 @@
 ---
 title: "Facing the Dangling pointer problem"
-date: "27/9/2020"
+date: "2020-09-27"
 tags: [programming, function arguments, variables]
 category: [internet]
 published: true

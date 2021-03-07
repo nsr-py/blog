@@ -1,6 +1,6 @@
 ---
 title: "What are Cookies?"
-date: "16/9/2020"
+date: "2020-09-16"
 tags: [cookies, chrome, firefox]
 category: [internet]
 published: true
