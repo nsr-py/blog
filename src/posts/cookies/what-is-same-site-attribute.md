@@ -22,7 +22,7 @@ This is useful to avoid [Cross Site Request Forgery (CSRF)](https://www.youtube.
 If a cookie has `sameSite=lax` attribute, then that cookie is sent on all visits to the page. This means that it is the same as `sameSite=strict` but this cookie will also be passed during a top level redirect from another site.
 
 #### 3. None
-This property means that cookies will be passed during all sorts of requests to the site. Whether it is a third-party request, redirects or direct navigaation to the site; this cookie is always sent with any request to the cookie domain.
+This property means that cookies will be passed during all sorts of requests to the site. Whether it is a third-party request, redirects or direct navigation to the site; this cookie is always sent with any request to the cookie domain.
 
 
 
@@ -32,7 +32,7 @@ Before the updates for implementing this attribute, browsers followed the behavi
 After the introduction of `same-site`, all the browsers now have a default behaviour of `sameSite=lax`. But all of them, in their release, recommended to use the `sameSite=strict` property.
 
 ## Was the transition smooth?
-The days following this update witnessed the crash of many websites. And aupdates in the feature starting from Chrome 80 and Firefox 60 were quite similar, there were(_and still are_) some small differences in the implementation across these two browsers.
+The days following this update witnessed the crash of many websites. And updates for the feature starting from Chrome 80 and Firefox 60 were quite similar, there were(_and still are_) some small differences in the implementation across these two browsers.
 
 #### Chrome
 This is a minor detail, but chrome still allows us to create cookies using javascript's `document.cookie` object without any kinds of warning. 
