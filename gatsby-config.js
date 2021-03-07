@@ -11,7 +11,7 @@ require("dotenv").config({
 module.exports = {
   pathPrefix: `/blog`,
   siteMetadata: {
-    title: "Let's Learn Together!",
+    title: "Navdeep Singh Rathore",
     author: "Navdeep"
   },
   /* Your site config here */
