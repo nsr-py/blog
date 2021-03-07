@@ -3,6 +3,7 @@ title: "How to track custom KPIs with Google Analytics"
 date: 10/09/2020
 tags: [API, Google Analytics, AJAX]
 category: [internet]
+published: true
 ---
 > TL;DR: I sent data through an AJAX request to an end point of google analytics. Follow [this article](/send-custom-events-to-google-analytics) for step-by-step instructions
 

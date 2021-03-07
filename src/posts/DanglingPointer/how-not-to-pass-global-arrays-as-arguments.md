@@ -3,6 +3,7 @@ title: "Facing the Dangling pointer problem"
 date: "27/9/2020"
 tags: [programming, function arguments, variables]
 category: [internet]
+published: true
 ---
 
 > This problem helped me better understand variable referencing 
@@ -52,7 +53,7 @@ const endSession = (user, data, currentTime) => {
 }
 ```
 
-The people who are actual programmars can see the problem quite easily but beginners like me might still be in the blind.
+The people who are actual programmers can see the problem quite easily but beginners like me might still be in the blind.
 
 The problem was that whenever the condition in the `batchData` function was met, the data in the`batch` array would be sent to the server by executing the `sendData` function and now the `batch` array; which I expected to become empty with the `batch = []`; did not become empty. 
 

@@ -3,6 +3,7 @@ title: "Send custom events to Google Analytics using AJAX"
 date: 11/09/2020
 tags: [Google Analytics, AJAX]
 category: [web-dev]
+published: true
 ---
 ***This information is for educational purposes only.***
 
@@ -13,7 +14,7 @@ The code for doing so is follows:
 ```
 let hitGA = () => {
   const GA_TRACKING_ID = "your GA tracking ID"
-  const GA_CLIENT_ID = "A valid Client Id to which the event will be assoiciated"
+  const GA_CLIENT_ID = "A valid Client Id to which the event will be associated"
 
   const event = {
     category: "pricing",
@@ -42,9 +43,9 @@ The most important thing here is the `message` and the object `event`
 `message` is the actual  data that send to the endpoint.
 <!--  -->
 Here, `message` consists of many attributes. A few important ones are:
-1. `tid`  is analytics tracking Id You can get the `GA_TRACKING_ID` from your google analytics admin settings pannel.
+1. `tid`  is analytics tracking Id You can get the `GA_TRACKING_ID` from your google analytics admin settings panel.
 
-2. `cid` is the customer id. This is used to recognise the user to whom the event is associated. For testing purposes, to get a valid `cid` follow the steps given in [this article](https://www.owox.com/blog/use-cases/google-analytics-client-id/)
+2. `cid` is the customer id. This is used to recognize the user to whom the event is associated. For testing purposes, to get a valid `cid` follow the steps given in [this article](https://www.owox.com/blog/use-cases/google-analytics-client-id/)
 
 3. All the attributes starting with *e* are used to define the event. We pass its values from the object that we created.
 

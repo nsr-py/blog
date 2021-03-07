@@ -9,6 +9,9 @@ export default function Blog() {
   const data = useStaticQuery(graphql`
     query {
       allMarkdownRemark (
+        filter: {
+          frontmatter: {published: {eq: true}}
+        }
         sort: {
           fields: [frontmatter___date]
           order: DESC

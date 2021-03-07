@@ -3,6 +3,7 @@ title: "Cookies: Same Site attribute"
 date: "15/9/2020"
 tags: [cookies, chrome, firefox]
 category: [web-dev]
+published: true
 ---
 
 If you [understand how cookies on the web work](/cookie), you will be aware of how third party elements on a website, like ads and social media posts, are the means for big companies like google and facebook to track you.

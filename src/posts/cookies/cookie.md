@@ -3,6 +3,7 @@ title: "What are Cookies?"
 date: "16/9/2020"
 tags: [cookies, chrome, firefox]
 category: [internet]
+published: true
 ---
 We all have heard about cookies on the internet. Who can forget those annoying pop-ups from websites saying "_We use cookies. Agree to continue_"?!\
 But today, let's actually understand what cookies are and how they work to be better aware of its threats and usecases.
